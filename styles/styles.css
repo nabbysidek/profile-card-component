@@ -1,0 +1,6 @@
+.card-header {
+    background-image: url("../images/bg-pattern-card.svg");
+    background-size: cover;
+    width: 350px;
+    height: 150px;
+}
