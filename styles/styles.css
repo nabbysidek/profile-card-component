@@ -1,3 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    position: relative;
+}
+
+/***********/
+/*** BG ***/
+/*********/
+
+.card-bg {
+    position: absolute;
+}
+
+.top-pattern {
+    float: left;
+    transform: translate(-300px, -500px);
+}
+
+.bottom-pattern {
+    float: right;
+    transform: translate(300px, -700px);
+}
+
+@media screen and (max-width:375px) {
+    .top-pattern {
+        float: left;
+        transform: translate(-700px, -600px);
+    }
+    
+    .bottom-pattern {
+        float: right;
+        transform: translate(200px, -600px);
+    }
+}
+
+.card-body {
+    background-color: #ffffff;
+    width: 350px;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+}
+
 .card-header {
     background-image: url("../images/bg-pattern-card.svg");
     background-size: cover;
