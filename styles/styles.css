@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 
 :root {
-    font-family: "Kumbh Sans", sans-serif;;
+    font-family: "Kumbh Sans", sans-serif;
 }
 
 body {
@@ -125,7 +125,7 @@ h4 {
     top:100%;
     transform: translateY(-300%);
     text-align: center;
-    border-top: 2px solid hsla(227, 10%, 46%, 0.25);
+    border-top: 2px solid hsla(227, 10%, 46%, 0.15);
 }
 
 .stats-column {
