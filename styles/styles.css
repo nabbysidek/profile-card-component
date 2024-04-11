@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root {
+    font-family: "Kumbh Sans", sans-serif;;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -40,15 +46,22 @@ body {
     }
 }
 
+/*************/
+/*** CARD ***/
+/***********/
+
 .card-body {
+    position: relative;
     background-color: #ffffff;
     width: 350px;
-    height: 450px;
+    height: 380px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-header {
@@ -56,4 +69,58 @@ body {
     background-size: cover;
     width: 350px;
     height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+/******************/
+/*** USER ICON ***/
+/****************/
+
+.user-icon {
+    position: absolute;
+    transform: translate(115%, -50%);
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    padding-bottom: 1px;
+}
+.user-icon img {
+    border-radius: 50%;
+}
+
+/*********************/
+/*** CARD CONTENT ***/
+/*******************/
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.card-content {
+    top: 100%;
+    transform: translateY(40%);
+}
+
+.user-name {
+    text-align: center;
+}
+
+.user-age {
+    font-weight: 500;
+    color: hsl(0, 0%, 59%);
+    margin-left: 5px;
+}
+
+.user-location {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.user-stats {
+    top:100%;
+    transform: translateY(70%);
+    text-align: center;
+    border-top: 2px solid #d6d6d6;
+    padding-top: 25px;
 }
